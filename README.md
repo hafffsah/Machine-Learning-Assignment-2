@@ -11,23 +11,20 @@ c. **Github Repository Link**
 
 d. **Models Used**
     - Comparison Table with evaluation metrics calculated for all 5 models:  
-      ML Model Name       |  Accuracy  |  AUC  |  Precision  |  Recall  |  F1  |  MCC
-      -------------------------------------------------------------------------------
-      Logistic Regression |  
-      Decision Tree       |     
-      KNN                 |
-      Naive Bayes         |   
-      SVM                 |
-      -------------------------------------------------------------------------------
+      |   ML Model Name        |  Accuracy  |  AUC  |  Precision  |  Recall  |  F1  |  MCC    |
+      |:-----------------------|:----------:|:-----:|:-----------:|:--------:|:----:|--------:|
+      |   Logistic Regression  |            |       |             |          |      |         |
+      |   Decision Tree        |            |       |             |          |      |         |
+      |   KNN                  |            |       |             |          |      |         |
+      |   Naive Bayes          |            |       |             |          |      |         |
+      |   SVM                  |            |       |             |          |      |         |
+      |:-----------------------|:----------:|:-----:|:-----------:|:--------:|:----:|--------:|
     - OBSERVATIONS
-      ML Model Name       |  Observation about model performance 
-      ----------------------------------------------------------
-      Logistic Regression | 
-      Decision Tree       | 
-      KNN                 | 
-      Naive Bayes         |
-      SVM                 |
-      ----------------------------------------------------------
-Support Vector Machine  
-Overall, Winner for your 
-dataset?
+      |   ML Model Name        |  Observation about model performance |
+      |:-----------------------|-------------------------------------:|
+      |   Logistic Regression  |                                      |
+      |   Decision Tree        |                                      |
+      |   KNN                  |                                      |  
+      |   Naive Bayes          |                                      |
+      |   SVM                  |                                      |       
+      |:-----------------------|-------------------------------------:|

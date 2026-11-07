@@ -1,6 +1,9 @@
 import streamlit as st
+import pandas as pd
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+st.title("Machine Learning Assignment 2")
+
+dataset = st.file_uploader("Upload your CSV Dataset")
+if dataset is not None:
+  df = pd.read_csv(dataset)
+  st.write(df)

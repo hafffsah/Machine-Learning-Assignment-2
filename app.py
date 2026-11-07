@@ -18,7 +18,7 @@ if dataset is not None:
 if 'data' in st.session_state:
     data = st.session_state['data']
 else:
-    data = pd.read_csv("../ML - Assignment 2/Churn_Modelling.csv")  # cleaned data
+    data = pd.read_csv("../Churn_Modelling.csv")  # cleaned data
 #   ----------------------------------------------------------------------------------------
 y = data.iloc[:, -1]
 x = data.iloc[:, 3:-1]

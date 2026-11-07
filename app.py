@@ -1,7 +1,7 @@
 import pandas as pd 
 import numpy as np
 import streamlit as st
-import scikit-learn
+
 from sklearn import model_selection
 from sklearn import preprocessing
 

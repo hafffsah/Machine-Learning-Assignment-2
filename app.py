@@ -1,6 +1,7 @@
-import pandas as pd # type: ignore
+import pandas as pd 
 import numpy as np
-import streamlit as st  #type: ignore
+import streamlit as st
+import sklearn
 from sklearn import model_selection
 from sklearn import preprocessing
 

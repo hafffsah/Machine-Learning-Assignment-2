@@ -112,4 +112,6 @@ evaluation = pd.DataFrame(
         "MCC Score": st.session_state['mcc']
     },
     index= ["Accuracy", "AUC Score", "Precision", "Recall", "F1 Score", "MCC Score"],)
+
+st.table(evaluation)
 #   ----------------------------------------------------------------------------------------

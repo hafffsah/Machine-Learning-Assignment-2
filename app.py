@@ -111,7 +111,7 @@ evaluation = pd.DataFrame(
         "F1 Score": st.session_state['f1'], 
         "MCC Score": st.session_state['mcc']
     },
-    index= [st.session_state[model]],)
+    index= [st.session_state['model']],)
 
 st.table(evaluation)
 #   ----------------------------------------------------------------------------------------

@@ -111,7 +111,17 @@ evaluation = pd.DataFrame(
         "F1 Score": st.session_state['f1'], 
         "MCC Score": st.session_state['mcc']
     },
-    index= [st.session_state['model']],)
-
+    index = [st.session_state['model']],)
 st.table(evaluation)
-#   ----------------------------------------------------------------------------------------
+
+# ----- Confusion Matrix -----
+st.write("")
+st.write("STEP 4 - Confusion Matrix")
+CM = metrics.confusion_matrix(y_test, selected_model_pred)
+confusion_matrix = pd.DataFrame(
+    {
+        "Actual 0": [CM[0, 0], CM[1, 0]],
+        "Actual 1": [CM[0, 1], CM[1, 1]]
+    },
+    index = ["Predicted 0", "Predicted 1"],)
+st.table(confusion_matrix)

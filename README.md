@@ -29,6 +29,7 @@ d. **Models Used**
       |  Decision Tree        |  Highest recall, confusion matrix points to similar values in comparison to other models due  |
       |                       |  to nature of dataset, lowest precision, likely to cull churned in comparison.                |
       |  KNN                  |  Average performance, slightly on the better side.                                            |  
-      |  Naive Bayes          |                                      |
+      |  Naive Bayes          |  Decent accuracy, remaining metrics similar to other classifiers. Model can be improved by    | 
+      |                       |  leveraging specific classifier type depending on the feature types.                          |
       |  SVM                  |  Highest value on all evaluation metrics except recall (has a lower TP rate), model performs  |
       |                       |  better due to better generalization.                                                         |                      
